@@ -20,55 +20,72 @@ a:hover {
 .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px 40px;
     background: #111;
 }
 
 .navbar h1 a {
-    font-size: 1.5em;
+    font-size: 1.8em;
     color: #00ffae;
+    text-transform: uppercase;
 }
 
-.btn {
-    font-size: 1em;
-    padding: 8px 15px;
+.navbar .btn {
+    padding: 10px 20px;
     background: #00ffae;
     color: #000;
+    font-size: 1.2em;
+    font-weight: bold;
     border: none;
     border-radius: 5px;
     text-decoration: none;
+    text-transform: uppercase;
+    transition: background 0.3s;
 }
 
-.btn:hover {
+.navbar .btn:hover {
     background: #007f5e;
 }
 
 /* Hero Section */
 .hero {
     text-align: center;
-    padding: 40px;
+    padding: 50px;
     background: #111;
+    border-bottom: 2px solid #333;
 }
 
 .hero h2 {
     font-size: 2.5em;
     color: #00ffae;
+    text-transform: uppercase;
 }
 
 /* Content Section */
 .content {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 0 20px;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #111;
+    border: 1px solid #333;
+    border-radius: 10px;
 }
 
 .content h3 {
     margin-top: 20px;
+    font-size: 1.5em;
     color: #00ffae;
 }
 
 .content p, .content ul {
+    font-size: 1.1em;
     margin: 10px 0;
+    color: #ddd;
+}
+
+.content ul li {
+    margin: 5px 0;
 }
 
 /* Footer */
